@@ -7,4 +7,4 @@ before_install:
   - docker build -t hussnainjav3d/docker-startup -f Dockerfile.dev .
 
 script:
-  - docker run hussnainjav3d/docker-startup nom run test -- --coverage
+  - docker run hussnainjav3d/docker-startup npm run test -- --coverage
